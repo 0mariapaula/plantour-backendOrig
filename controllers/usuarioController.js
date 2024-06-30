@@ -1,7 +1,6 @@
 const { Usuario } = require('../models/associations');
 
 
-
 exports.createUsuario = async (req, res) => {
     try {
         const usuario = await Usuario.create(req.body);

@@ -1,4 +1,3 @@
-const { Roteiro } = require('../models/associations');
 
 const { Usuario, Empresa, Atracao, Roteiro, Passeio, Avaliacao, Favorito } = require('../models/associations');
 
