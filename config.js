@@ -5,6 +5,7 @@ module.exports = new Sequelize({
   dialect: 'mariadb',
   host: '127.0.0.1',
   username: 'root',
-  password: '33241858',
+  password: '3006',
   database: 'plantour_db',
+  port: '3306', 
 });
